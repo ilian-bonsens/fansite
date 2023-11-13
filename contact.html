@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Index" content="Page 'Oeuvre' du site de l'Extension du territoire, qui présente le manga, son auteur et ses thèmes.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fansite.css">
+    <title>Contact - Extension du territoire</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="header-logo">
+                <a href="fansite.html">
+                    <img src="images/Jujutsu_Kaisen_logo.svg" alt="Logo jujutsu kaisen">
+                </a>
+            </div>
+            <div class="liens">
+                <ul>
+                    <li id="tabs"><a href="oeuvre.html">L'Oeuvre</a></li>
+                    <li id="tabs"><a href="actualites.html">Actualités</a></li>
+                    <li id="tabs"><a href="regarder.html">Liens</a></li>
+                    <li id="tabs"><a href="contact.html">Contact</a></li>
+                    <li id="searchbar"><input type="text" name="rechercher"></li>
+                </ul>
+            </div>
+        </nav>
+	</header>
+
+    <main>
+        <h1 class="contact-form">Formulaire de contact</h1>
+        <div class="conteneur-form">
+            <form action="/action_page.php">
+                <label for="fname">Genre</label>
+            <br>
+                <select class="liste-form" name="Genre">
+                <option class="liste-form" value="Défaut"></option>
+                <option class="liste-form" value="Femme">Femme</option>
+                <option class="liste-form" value="Homme">Homme</option>
+                </select>
+            <br>
+    
+                <label for="fname">Nom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre nom">
+    
+                <label for="fname">Prénom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre prénom">
+            
+                <label for="sujet">Sujet</label>
+                <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+            
+                <label for="emailAddress">Email</label>
+                <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+            
+            
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+            
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <section class="conteneur-footer">
+            <div>
+                <h3>Sommaire</h3>
+                <ul class="sommaire">
+                    <li><a href="fansite.html">Accueil</a></li>
+                    <li><a href="oeuvre.html">L'Oeuvre</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="regarder.html">Liens</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Liens</h3>
+                <ul class="liens-footer">
+                    <li><a href="https://mangaplus.shueisha.co.jp/titles/700004">Lire</a></li>
+                    <li><a href="https://www.crunchyroll.com/fr/series/GRDV0019R/jujutsu-kaisen">Regarder</a></li>
+                    <li><a href="https://jujutsukaisen.jp/">Site officiel</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Site</h3>
+                <ul class="mentions">
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">C.G.U</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
